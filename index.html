@@ -91,7 +91,14 @@
     overflow: hidden;
   }
   /* Drop a screenshot in assets/ and replace the .thumb div with:
-     <img class="thumb" src="assets/canvas-ai-assistant.png" alt="Canvas AI Assistant screenshot"> */
+     <img class="thumb" src="assets/jersey-number.png" alt="Jersey number pipeline screenshot"> */
+  .demo {
+    display: block;
+    width: 100%;
+    aspect-ratio: 1280 / 692;
+    background: #000;
+    border-bottom: 1px solid var(--border);
+  }
   .thumb {
     display: flex;
     align-items: center;
@@ -140,12 +147,13 @@
     <h1 class="name">Yerdana Maulenbay</h1>
     <p class="tagline">
       Computer Vision researcher working on Adversarial Attacks for 3D Object Detection Systems. Interested in diving deep into Path Planning, and Safety in Autonomous Driving. Experienced in building apps based on 
-      agentic workflow
+      agentic workflows.
+    </p>
     <ul class="links">
       <li><a href="https://github.com/Yerdana2002">GitHub</a></li>
       <li><a href="https://scholar.google.ca/citations?hl=en&user=Tk1FBBQAAAAJ">Google Scholar</a></li>
       <li><a href="https://www.linkedin.com/in/yerdana-maulenbay/">LinkedIn</a></li><!-- TODO: add URL -->
-      <li><a href="m.erdana90115@gmail.com">Email</a></li><!-- TODO: mailto:you@example.com -->
+      <li><a href="mailto:m.erdana90115@gmail.com">Email</a></li>
       <li><a href="#">CV</a></li><!-- TODO: assets/cv.pdf -->
     </ul>
   </header>
@@ -165,11 +173,10 @@
 
       <article class="card">
         <video class="demo" controls playsinline preload="metadata"
-       poster="assets/canvas-ai-poster.png">
-  <source src="assets/canvas-ai-demo.mp4" type="video/mp4">
-  <a href="assets/canvas-ai-demo.mp4">Download the demo video</a>
-</video>
-
+               poster="assets/canvas-ai-poster.png">
+          <source src="assets/canvas-ai-demo.mp4" type="video/mp4">
+          <a href="assets/canvas-ai-demo.mp4">Download the demo video</a>
+        </video>
         <div class="card-body">
           <h3><a href="https://github.com/Yerdana2002/canvas-ai-assistant">Canvas AI Assistant</a></h3>
           <p class="meta">Full-stack &middot; 2026</p>
